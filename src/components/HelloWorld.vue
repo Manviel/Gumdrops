@@ -57,12 +57,12 @@ export default {
 
 <style scoped>
 .soft {
-  padding: 16px 20px;
-  border-radius: 8px;
-  background: #ecf0f3;
-  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
-  font-size: 16px;
-  margin-bottom: 12px;
+  padding: var(--gd-spacing-md) var(--gd-spacing-md);
+  border-radius: var(--gd-radius-md);
+  background: var(--gd-bg);
+  box-shadow: 20px 20px 60px var(--gd-shadow-dark), -20px -20px 60px var(--gd-shadow-light);
+  font-size: var(--gd-font-size-base);
+  margin-bottom: var(--gd-spacing-md);
 }
 
 .neumorphism {
@@ -74,25 +74,10 @@ export default {
 
 .label {
   text-transform: uppercase;
-  margin-bottom: 8px;
-}
-
-.btn {
-  background: #e3e6ec;
-  box-shadow: 18px 18px 20px #d1d9e6, -18px -18px 20px #ffffff;
-  border-radius: 30px;
-  padding: 16px 20px;
-  border: 0;
-  font-size: inherit;
-  font-weight: bold;
-}
-
-.btn:hover {
-  background: #e6e9ef;
-  box-shadow: inset 18px 18px 30px #d1d9e6, inset -18px -18px 30px #ffffff;
+  margin-bottom: var(--gd-spacing-sm);
 }
 
 input {
-  padding: 10px 12px;
+  padding: var(--gd-spacing-sm) 12px;
 }
 </style>

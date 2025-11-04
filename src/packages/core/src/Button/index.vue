@@ -57,27 +57,27 @@ function onClick(e) {
 }
 
 .gd-btn--primary {
-	background: #3b82f6;
+	background: var(--gd-color-primary);
 	color: #fff;
 }
 
 .gd-btn--primary:hover {
-	background: #2563eb;
+	background: var(--gd-color-primary-600);
 }
 
 .gd-btn--secondary {
-	background: #f3f4f6;
-	color: #111827;
-	border-color: #e5e7eb;
+	background: var(--gd-color-secondary-bg);
+	color: var(--gd-color-text);
+	border-color: var(--gd-color-secondary-border);
 }
 
 .gd-btn--secondary:hover {
-	background: #e5e7eb;
+	background: var(--gd-color-secondary-border);
 }
 
 .gd-btn--link {
 	background: transparent;
-	color: #3b82f6;
+	color: var(--gd-color-primary);
 	padding: 0;
 	border: none;
 }

@@ -24,9 +24,9 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #404660;
+  color: var(--gd-color-text);
   height: 100vh;
-  background: #ecf0f3;
+  background: var(--gd-bg);
 }
 
 * {

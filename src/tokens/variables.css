@@ -1,0 +1,29 @@
+:root {
+  /* Primary brand */
+  --gd-color-primary: #3b82f6;
+  --gd-color-primary-600: #2563eb;
+
+  /* Secondary */
+  --gd-color-secondary-bg: #f3f4f6;
+  --gd-color-secondary-border: #e5e7eb;
+
+  /* Text */
+  --gd-color-text: #111827;
+
+  /* Background */
+  --gd-bg: #ecf0f3;
+
+  /* Shadows */
+  --gd-shadow-dark: #bebebe;
+  --gd-shadow-light: #ffffff;
+
+  /* Spacing */
+  --gd-spacing-sm: 8px;
+  --gd-spacing-md: 16px;
+
+  /* Typography */
+  --gd-font-size-base: 16px;
+
+  /* Radius / shadows */
+  --gd-radius-md: 6px;
+}
