@@ -12,8 +12,9 @@ module.exports = {
   },
   plugins: ['vue'],
   extends: [
-    'plugin:vue/essential',
-    'eslint:recommended'
+    "plugin:vue/essential",
+    "eslint:recommended",
+    "plugin:storybook/recommended"
   ],
   rules: {}
 }
