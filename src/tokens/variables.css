@@ -24,6 +24,15 @@
   /* Typography */
   --gd-font-size-base: 16px;
 
+  /* Typography tokens: variants and sizes */
+  --gd-type-title: 1.25rem;
+  --gd-type-lead: 1.05rem;
+
+  /* body sizes */
+  --gd-type-body-sm: 0.85rem;
+  --gd-type-body-md: 1rem;
+  --gd-type-body-lg: 1.15rem;
+
   /* Radius / shadows */
   --gd-radius-md: 6px;
 }
