@@ -1,0 +1,17 @@
+{
+  "name": "@gumdrops/core",
+  "version": "0.1.0",
+  "type": "module",
+  "private": false,
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "exports": {
+    ".": {
+      "import": "./src/index.js",
+      "require": "./src/index.js"
+    }
+  }
+}

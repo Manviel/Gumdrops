@@ -1,0 +1,2 @@
+# Ignore generated and type declaration files
+src/types/**

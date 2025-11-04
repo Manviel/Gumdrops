@@ -1,14 +1,14 @@
 <template>
   <main class="soft flex">
-    <Typography tag="h1" variant="title">Enter user name</Typography>
-    <Typography variant="lead">{{ msg }}</Typography>
+    <StyledTypography tag="h1" variant="title">Enter user name</StyledTypography>
+    <StyledTypography variant="lead">{{ msg }}</StyledTypography>
 
     <section class="neumorphism flex">
       <label class="label">{{ username }}</label>
       <input type="text" v-model="username" placeholder="Enter..." />
     </section>
 
-    <Button variant="primary" @click="option = username">Submit</Button>
+    <StyledButton variant="primary" @click="option = username">Submit</StyledButton>
   </main>
 
   <ol class="soft" v-if="option">
@@ -20,12 +20,11 @@
 
 <script>
 import { reactive, ref, watchEffect, toRefs } from "vue";
-import Button from "../packages/core/src/Button/index.vue";
-import Typography from "../packages/core/src/Typography/index.vue";
+import { Button as StyledButton, Typography as StyledTypography } from "@gumdrops/core";
 
 export default {
   name: "HelloWorld",
-  components: { Button, Typography },
+  components: { StyledButton, StyledTypography },
   props: {
     msg: String,
   },

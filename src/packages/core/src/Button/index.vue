@@ -1,6 +1,8 @@
 <script setup>
 import { computed } from 'vue'
 
+defineOptions({ name: 'StyledButton' })
+
 const props = defineProps({
 	variant: { type: String, default: 'primary' },
 	size: { type: String, default: 'md' },

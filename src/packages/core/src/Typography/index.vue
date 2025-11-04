@@ -1,6 +1,8 @@
 <script setup>
 import { computed } from 'vue'
 
+defineOptions({ name: 'StyledTypography' })
+
 const props = defineProps({
 	tag: { type: String, default: 'p' },
 	variant: { type: String, default: 'body' },
