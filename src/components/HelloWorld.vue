@@ -1,11 +1,14 @@
 <template>
   <main class="soft flex">
-    <h1>Enter {{ msg }} user name</h1>
+    <Typography tag="h1" variant="title">Enter user name</Typography>
+    <Typography variant="lead">{{ msg }}</Typography>
+
     <section class="neumorphism flex">
       <label class="label">{{ username }}</label>
       <input type="text" v-model="username" placeholder="Enter..." />
     </section>
-    <button class="btn" @click="option = username">Submit</button>
+
+    <Button variant="primary" @click="option = username">Submit</Button>
   </main>
 
   <ol class="soft" v-if="option">
@@ -17,9 +20,12 @@
 
 <script>
 import { reactive, ref, watchEffect, toRefs } from "vue";
+import Button from "../packages/core/src/Button/index.vue";
+import Typography from "../packages/core/src/Typography/index.vue";
 
 export default {
   name: "HelloWorld",
+  components: { Button, Typography },
   props: {
     msg: String,
   },
@@ -50,7 +56,6 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .soft {
   padding: 16px 20px;
